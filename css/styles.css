@@ -10,6 +10,12 @@ background-color: #ff4c68;
     
 }
 
+#pricing
+{
+    text-align: center;
+    padding: 7% 15%;
+}
+
 .check-circle
 {
     text-align: center;
@@ -135,4 +141,57 @@ body{
 .carousel-item
 {
     padding: 7% 15%;
+}
+
+
+.card-column
+{
+    margin: 25px 0 25px 0;
+}
+@media(max-width:300px)
+{
+   h1
+    {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5rem;
+        color:white;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    h3{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.8rem;
+        
+        font-weight: bold;
+    
+    }
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+        
+        font-weight: bold;
+    
+    
+    }
+    
+    p
+    {
+        color: #8f8f8f;
+        font-size: 1.2rem;
+    }
+
+    .download-btn
+    {
+        margin-left: 4.5rem;
+    }
+
+    .title-img
+{
+    width: 55%;
+    transform: rotate(0);
+    margin : 4.5rem;
+}
+
+
 }
